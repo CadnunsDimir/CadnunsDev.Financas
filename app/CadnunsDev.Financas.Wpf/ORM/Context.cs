@@ -14,10 +14,10 @@ namespace CadnunsDev.Financas.Wpf.ORM
             : base("FinancasDb")
         {
             Database.ExecuteSqlCommand(@"CREATE TABLE if not exists `Anotacoes` (
-	`Id`	INTEGER,
-	`Texto`	TEXT,
-	PRIMARY KEY(Id)
-)");
+	            `Id`	INTEGER,
+	            `Texto`	TEXT,
+	            PRIMARY KEY(Id)
+            )");
         }
 
         public DbSet<Anotacao> Anotacoes { get; set; }
