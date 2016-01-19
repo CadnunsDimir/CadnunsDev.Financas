@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Apresentacao", "1 - Apresentacao", "{E5F732C6-073D-4CAE-A150-74D35A47DB02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Dominio", "2 - Dominio", "{A1DB358C-2628-434C-86E1-A4BFDBEC2AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{4982D007-FCFF-472C-8542-53E804BA7584}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadnunsDev.Financas.ConsoleUI", "app\CadnunsDev.Financas.ConsoleUI\CadnunsDev.Financas.ConsoleUI.csproj", "{BADD02DF-974F-4414-B20F-C2F11E95709C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadnunsDev.Financas.Dominio", "app\CadnunsDev.Financas.Dominio\CadnunsDev.Financas.Dominio.csproj", "{78E5C9F1-5064-4009-BDE3-181C03EDEF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadnunsDev.Financas.Infra.Data", "app\CadnunsDev.Financas.Infra.Data\CadnunsDev.Financas.Infra.Data.csproj", "{58090A6A-F6E0-4007-8046-1CE347D6A0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadnunsDev.Financas.Wpf", "app\CadnunsDev.Financas.Wpf\CadnunsDev.Financas.Wpf.csproj", "{0FB84E47-86F2-4EF4-9EA8-22D540064D63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BADD02DF-974F-4414-B20F-C2F11E95709C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADD02DF-974F-4414-B20F-C2F11E95709C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADD02DF-974F-4414-B20F-C2F11E95709C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADD02DF-974F-4414-B20F-C2F11E95709C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E5C9F1-5064-4009-BDE3-181C03EDEF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E5C9F1-5064-4009-BDE3-181C03EDEF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E5C9F1-5064-4009-BDE3-181C03EDEF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E5C9F1-5064-4009-BDE3-181C03EDEF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58090A6A-F6E0-4007-8046-1CE347D6A0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58090A6A-F6E0-4007-8046-1CE347D6A0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58090A6A-F6E0-4007-8046-1CE347D6A0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58090A6A-F6E0-4007-8046-1CE347D6A0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB84E47-86F2-4EF4-9EA8-22D540064D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB84E47-86F2-4EF4-9EA8-22D540064D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB84E47-86F2-4EF4-9EA8-22D540064D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB84E47-86F2-4EF4-9EA8-22D540064D63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BADD02DF-974F-4414-B20F-C2F11E95709C} = {E5F732C6-073D-4CAE-A150-74D35A47DB02}
+		{78E5C9F1-5064-4009-BDE3-181C03EDEF27} = {A1DB358C-2628-434C-86E1-A4BFDBEC2AE5}
+		{58090A6A-F6E0-4007-8046-1CE347D6A0F4} = {4982D007-FCFF-472C-8542-53E804BA7584}
+		{0FB84E47-86F2-4EF4-9EA8-22D540064D63} = {E5F732C6-073D-4CAE-A150-74D35A47DB02}
+	EndGlobalSection
+EndGlobal
